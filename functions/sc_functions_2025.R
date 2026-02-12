@@ -9,7 +9,7 @@ suppressMessages(library(httr))
 
 ### SECRET VARIABLES -----------------------------------------------------------
 
-source(paste0('/Users/paulmcgrath/Github/Fantasy-Banter/functions/secrets.R')) # import authentication variables
+source(paste0('/Users/pmac/Projects/Fantasy-Banter/functions/secrets.R')) # import authentication variables
 
   
 ### GENERAL FUNCTIONS ----------------------------------------------------------
