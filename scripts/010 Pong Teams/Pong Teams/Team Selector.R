@@ -115,7 +115,7 @@ minPrevMatchup <- sort(count[usableTeams])[2]
 eligibleTeams <- teamList[usableTeams & count <= minPrevMatchup]
 
 # Print eligible teams
-str(eligibleTeams[c(2,3)])
+str(eligibleTeams)
 
 # Extract teams to create matrix
 tms <- lapply(eligibleTeams, function(x){
@@ -184,6 +184,11 @@ team_history <- t %>%
 
 
 
+tms6 %>%
+  filter(PLAYER=='PMAC' | PARTNER == 'PMAC')
+
+
+print(tms6 , n=100)
 
 
 
